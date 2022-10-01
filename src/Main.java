@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         task1();
+        task2();
     }
 
     private static void task1() {
@@ -11,5 +12,14 @@ public class Main {
         String fullName = lastName + " " + firstName + " " + middleName;
 
         System.out.println("ФИО сотрудника — " + fullName);
+    }
+
+    private static void task2() {
+        System.out.println("Задание2:");
+
+        String fullName = "Ivanov Ivan Ivanovich";
+        String fullNameUpper = fullName.toUpperCase();
+
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullNameUpper);
     }
 }
